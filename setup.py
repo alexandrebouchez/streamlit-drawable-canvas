@@ -15,7 +15,7 @@ def readme() -> str:
 
 setuptools.setup(
     name="streamlit-drawable-canvas",
-    version="0.9.3",
+    version="0.9.4",
     author="Fanilo ANDRIANASOLO",
     author_email="contact@andfanilo.com",
     description="A Streamlit custom component for a free drawing canvas using Fabric.js.",
@@ -25,10 +25,10 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
-    python_requires=">=3.6",
+    python_requires=">=3.10",
     install_requires=[
         "Pillow",
         "numpy",
-        "streamlit >= 1.39.1",
+        "streamlit >= 1.40",
     ],
 )
