@@ -1,5 +1,5 @@
-from os.path import dirname
-from os.path import join
+from os.path import dirname, join
+
 import setuptools
 
 
@@ -29,6 +29,6 @@ setuptools.setup(
     install_requires=[
         "Pillow",
         "numpy",
-        "streamlit >= 0.63",
-    ]
+        "streamlit >= 1.39.1",
+    ],
 )
